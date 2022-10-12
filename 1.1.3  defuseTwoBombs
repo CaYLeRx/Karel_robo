@@ -1,0 +1,25 @@
+void defuseTwoBombs()
+{
+    repeat(9) {
+        moveForward();
+    }
+    pickBeeper();
+    repeat(2) {
+        turnLeft();
+    }
+    repeat(9) {
+        moveForward();
+    }
+    turnRight();
+    repeat(9){
+        moveForward();
+    }
+    pickBeeper();
+    repeat(2) {
+        turnLeft();
+    }
+    repeat(9) {
+        moveForward();
+    }
+    turnLeft();
+}
